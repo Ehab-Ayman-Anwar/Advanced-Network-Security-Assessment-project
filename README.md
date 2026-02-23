@@ -62,7 +62,7 @@ The objective was to identify exposed services, detect outdated software version
 
 | Service    | Version | Vulnerability                | Severity |
 
-|------------|---------|------------------------------|----------|
+|------------|---------|----------------------------|----------|
 
 | vsftpd     | 2.3.4   | Backdoor RCE (CVE-2011-2523) | Critical |
 
