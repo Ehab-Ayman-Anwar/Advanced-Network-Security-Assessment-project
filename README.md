@@ -60,15 +60,15 @@ The objective was to identify exposed services, detect outdated software version
 
 
 
-| Service  | Version | Vulnerability                | Severity |
+| Service    | Version   | Vulnerability                | Severity |
 
-|----------|-----------|----------------------------|----------|
+|------------|-----------|------------------------------|----------|
 
-| vsftpd     | 2.3.4   | Backdoor RCE (CVE-2011-2523) | Critical |
+| vsftpd     | 2.3.4     | Backdoor RCE (CVE-2011-2523) | Critical |
 
-| UnrealIRCd | 3.2.8.1 | Backdoor RCE (CVE-2010-2075) | Critical |
+| UnrealIRCd | 3.2.8.1   | Backdoor RCE (CVE-2010-2075) | Critical |
 
-| Samba      | 3.0.20  | Remote Code Execution        | High     |
+| Samba      | 3.0.20    | Remote Code Execution        | High     |
 
 
 
