@@ -71,7 +71,7 @@ code: ping 192.168.111.129
 
 code: nmap -p- -T4 192.168.111.129
 
-Screenshot: 02\_full\_port\_scan.png
+![Full Port Scan](../Screenshots/02_full_port_scan.png)
 
 
 
@@ -89,11 +89,10 @@ A full TCP port scan was conducted using Nmap to identify all open ports on the 
 
 code: nmap -sV -sC 192.168.111.129
 
-Screenshot: 03\_service\_version\_scan.png
-
-03(1).png | 03(2).png | 03(3).png
-
-
+![Service Version Scan](../Screenshots/03_service_version_scan.png)
+![Service Scan 1](../Screenshots/03(1).png)
+![Service Scan 1](../Screenshots/03(1).png)
+![Service Scan 3](../Screenshots/03(3).png)
 
 The scan revealed several outdated and vulnerable services including:
 
@@ -121,19 +120,19 @@ Multiple services were found running outdated versions known to contain publicly
 
 code: searchsploit vsftpd 2.3.4
 
-Screenshot: 04\_vsftpd\_exploits.png
+![VSFTPD Exploit](../Screenshots/04_vsftpd_exploits.png)
 
 
 
 code: searchsploit samba 3.0.20
 
-Screenshot: 05\_samba\_exploits.png
+![Samba Exploit](../Screenshots/05_samba_exploits.png)
 
 
 
 code: searchsploit unrealircd 3.2.8.1
 
-Screenshot: 06\_unrealircd\_exploits.png
+![UnrealIRCD Exploit](../Screenshots/06_unrealircd_exploits.png)
 
 
 
