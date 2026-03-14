@@ -58,7 +58,8 @@ Tools Used: Nmap, Searchsploit
 
 code: ping 192.168.111.129
 
-Screenshot: 01\_connectivity\_test.png
+![Connectivity Test](../Screenshots/01_connectivity_test.png)
+
 
 
 
